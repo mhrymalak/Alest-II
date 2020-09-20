@@ -1,0 +1,5 @@
+# Proc 4
+ly_430 -> qjvsg_38
+ly_430 -> niwq_192
+aknp_161 -> ly_430
+aknp_161 -> am_271

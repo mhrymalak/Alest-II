@@ -1,0 +1,7 @@
+# Proc 4
+aax_61 -> amqnr_493
+aax_61 -> hocr_273
+amqnr_493 -> vbmj_213
+amqnr_493 -> txi_174
+hocr_273 -> tb_24
+aax_61 -> nco_204
