@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.TreeSet;
+import java.util.HashMap;
 import java.lang.System;
 
 public class Application {
@@ -30,6 +31,7 @@ public class Application {
 
     private static void executeCase(byte caseOption) 
     {   var filePath = "";
+        var mapping = new HashMap<String,String>();
         // choose the file option
         switch(caseOption)
         {   case 0:
@@ -69,7 +71,7 @@ public class Application {
                 break;
         }
 
-        final var fileContent = readFile(filePath);
+        var fileContent = readFile(filePath);
         if(fileContent.isBlank()){
             System.out.println("pulando este teste");
             return;
@@ -85,7 +87,7 @@ public class Application {
 
     private static List<String> dataFormating(String[] split) {
         
-        return ;
+        
     }
 
     private static String readFile(String filePath)
