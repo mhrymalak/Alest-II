@@ -76,16 +76,16 @@ public class Application {
         }
 
         // creating structure
-        var contentAsList = Arrays.asList(fileContent.split(" -> ")); 
-        var contentAsTreeSet = new TreeSet<String>(); 
+        var contentAsList = dataFormating(fileContent.split(" -> ")); 
         
         System.out.println("Arquivo: "+filePath);
-        contentAsTreeSet.addAll(contentAsList);
-        System.out.println("LISTA: ");
-        System.out.println(contentAsList.toString());
-        System.out.println("ÁRVORE: "+filePath);
-        System.out.println(contentAsTreeSet.toString());
+
         
+    }
+
+    private static List<String> dataFormating(String[] split) {
+        
+        return ;
     }
 
     private static String readFile(String filePath)
