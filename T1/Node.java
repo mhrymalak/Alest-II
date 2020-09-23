@@ -4,12 +4,12 @@ class Node {
 
     public String name;
     public short time;
-    public String originalName;
+    public boolean processed;
 
     public Node(String name, short time) {
         this.name = name;
         this.time = time;
-        this.originalName = name+"_"+time;
+        this.processed = false;
     }
     @Override
     public int hashCode() {
