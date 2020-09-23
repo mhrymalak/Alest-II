@@ -1,5 +1,3 @@
-package T1;
-
 public class Processor extends java.lang.Thread {
 
     private Node node;
