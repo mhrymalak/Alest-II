@@ -1,18 +1,15 @@
 package T1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class Node {
 
-    public List<Node> children;
     public String name;
-    public int time;
+    public short time;
+    public String originalName;
 
-    public Node(String name, int time) {
+    public Node(String name, short time) {
         this.name = name;
         this.time = time;
-        this.children = new ArrayList<Node>();
+        this.originalName = name+"_"+time;
     }
     @Override
     public int hashCode() {
@@ -27,5 +24,9 @@ class Node {
            }
        }
         return false;
+    }
+    @Override
+    public String toString(){
+        return "Name: "+this.name+"\nTime: "+this.time;
     }
 }
