@@ -1,4 +1,3 @@
-package T1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,7 +12,7 @@ public class Application {
 
     private static final byte SMALLEST = 0;
     private static final byte BIGGEST = Byte.MAX_VALUE;
-    private static HashMap<Node,List<Node>> tree; 
+    private static HashMap<Node,List<Node>> tree;
     private static List<Processor> procs;
     private static Node root;
     private static short count = 0;

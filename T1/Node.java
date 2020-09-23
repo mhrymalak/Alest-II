@@ -1,6 +1,4 @@
-package T1;
-
-class Node {
+public class Node {
 
     public String name;
     public short time;
